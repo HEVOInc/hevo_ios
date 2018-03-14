@@ -7,8 +7,6 @@
 //
 
 import Foundation
-
-
-public class Location{
+open final class HPLocation{
     
 }

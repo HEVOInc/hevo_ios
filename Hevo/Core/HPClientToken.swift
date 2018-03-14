@@ -7,7 +7,7 @@
 //
 
 import Foundation
-class HPClientToken: NSObject, NSCoding, NSCopying{
+open class HPClientToken: NSObject, NSCoding, NSCopying{
 
     var json:HPJSON!
     var authorizationFingerprint:String!
@@ -17,15 +17,15 @@ class HPClientToken: NSObject, NSCoding, NSCopying{
         
     }
     
-    func encode(with aCoder: NSCoder) {
+    public func encode(with aCoder: NSCoder) {
         
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         
     }
     
-    func copy(with zone: NSZone? = nil) -> Any {
+    public func copy(with zone: NSZone? = nil) -> Any {
         return ""
     }
     

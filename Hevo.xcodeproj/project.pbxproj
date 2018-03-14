@@ -14,9 +14,9 @@
 		0CEDF03720595E6D0067291D /* HPErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEDF02D20595E6D0067291D /* HPErrors.swift */; };
 		0CEDF03820595E6D0067291D /* HPHTTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEDF02E20595E6D0067291D /* HPHTTP.swift */; };
 		0CEDF03920595E6D0067291D /* HPJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEDF02F20595E6D0067291D /* HPJSON.swift */; };
-		0CEDF03A20595E6D0067291D /* Charge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEDF03120595E6D0067291D /* Charge.swift */; };
-		0CEDF03B20595E6D0067291D /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEDF03320595E6D0067291D /* Location.swift */; };
-		0CEDF03C20595E6D0067291D /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEDF03520595E6D0067291D /* Reservation.swift */; };
+		0CEDF03A20595E6D0067291D /* HPCharge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEDF03120595E6D0067291D /* HPCharge.swift */; };
+		0CEDF03B20595E6D0067291D /* HPLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEDF03320595E6D0067291D /* HPLocation.swift */; };
+		0CEDF03C20595E6D0067291D /* HPReservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEDF03520595E6D0067291D /* HPReservation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +40,9 @@
 		0CEDF02D20595E6D0067291D /* HPErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPErrors.swift; sourceTree = "<group>"; };
 		0CEDF02E20595E6D0067291D /* HPHTTP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPHTTP.swift; sourceTree = "<group>"; };
 		0CEDF02F20595E6D0067291D /* HPJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPJSON.swift; sourceTree = "<group>"; };
-		0CEDF03120595E6D0067291D /* Charge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Charge.swift; sourceTree = "<group>"; };
-		0CEDF03320595E6D0067291D /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
-		0CEDF03520595E6D0067291D /* Reservation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
+		0CEDF03120595E6D0067291D /* HPCharge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPCharge.swift; sourceTree = "<group>"; };
+		0CEDF03320595E6D0067291D /* HPLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPLocation.swift; sourceTree = "<group>"; };
+		0CEDF03520595E6D0067291D /* HPReservation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPReservation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +118,7 @@
 		0CEDF03020595E6D0067291D /* Charge */ = {
 			isa = PBXGroup;
 			children = (
-				0CEDF03120595E6D0067291D /* Charge.swift */,
+				0CEDF03120595E6D0067291D /* HPCharge.swift */,
 			);
 			path = Charge;
 			sourceTree = "<group>";
@@ -126,7 +126,7 @@
 		0CEDF03220595E6D0067291D /* Location */ = {
 			isa = PBXGroup;
 			children = (
-				0CEDF03320595E6D0067291D /* Location.swift */,
+				0CEDF03320595E6D0067291D /* HPLocation.swift */,
 			);
 			path = Location;
 			sourceTree = "<group>";
@@ -134,7 +134,7 @@
 		0CEDF03420595E6D0067291D /* Reservation */ = {
 			isa = PBXGroup;
 			children = (
-				0CEDF03520595E6D0067291D /* Reservation.swift */,
+				0CEDF03520595E6D0067291D /* HPReservation.swift */,
 			);
 			path = Reservation;
 			sourceTree = "<group>";
@@ -251,10 +251,10 @@
 			files = (
 				0CEDF03820595E6D0067291D /* HPHTTP.swift in Sources */,
 				0CEDF03920595E6D0067291D /* HPJSON.swift in Sources */,
-				0CEDF03A20595E6D0067291D /* Charge.swift in Sources */,
+				0CEDF03A20595E6D0067291D /* HPCharge.swift in Sources */,
 				0CEDF03720595E6D0067291D /* HPErrors.swift in Sources */,
-				0CEDF03B20595E6D0067291D /* Location.swift in Sources */,
-				0CEDF03C20595E6D0067291D /* Reservation.swift in Sources */,
+				0CEDF03B20595E6D0067291D /* HPLocation.swift in Sources */,
+				0CEDF03C20595E6D0067291D /* HPReservation.swift in Sources */,
 				0CEDF03620595E6D0067291D /* HPClientToken.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

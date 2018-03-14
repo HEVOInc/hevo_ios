@@ -7,6 +7,6 @@
 //
 
 import Foundation
-class Charge {
+open final class HPCharge {
     
 }

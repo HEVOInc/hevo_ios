@@ -7,7 +7,7 @@
 //
 
 import Foundation
-class HPHTTP: NSObject, URLSessionDelegate {
+open class HPHTTP: NSObject, URLSessionDelegate {
     
     var baseURL: URL!
     var authorizationFingerPrint: String!
@@ -37,15 +37,15 @@ class HPHTTP: NSObject, URLSessionDelegate {
         
     }
     
-    func urlSession(_ session: URLSession, didBecomeInvalidWithError error: Error?) {
+    public func urlSession(_ session: URLSession, didBecomeInvalidWithError error: Error?) {
         
     }
     
-    func urlSessionDidFinishEvents(forBackgroundURLSession session: URLSession) {
+    public func urlSessionDidFinishEvents(forBackgroundURLSession session: URLSession) {
         
     }
     
-    func urlSession(_ session: URLSession, didReceive challenge: URLAuthenticationChallenge, completionHandler: @escaping (URLSession.AuthChallengeDisposition, URLCredential?) -> Void) {
+    public func urlSession(_ session: URLSession, didReceive challenge: URLAuthenticationChallenge, completionHandler: @escaping (URLSession.AuthChallengeDisposition, URLCredential?) -> Void) {
         
     }
     

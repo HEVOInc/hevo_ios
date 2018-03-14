@@ -7,7 +7,7 @@
 //
 
 import Foundation
-class HPJSON:NSObject {
+open class HPJSON:NSObject {
     
     var json: HPJSON = HPJSON()
     subscript(index: String)->String{

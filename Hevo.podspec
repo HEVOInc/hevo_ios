@@ -9,8 +9,11 @@ HEVO iOS SDK Electric Vehicle Charging and Parking Alignment helper. Use this so
   s.license      = "MIT"
   s.author             = { "Emrah Usar" => "emrahusar@gmail.com" }
   s.platform     = :ios, "9.0"
-  s.source       = { :git => "https://github.com/HEVOInc/hevo_ios.git", :branch => "master", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/HEVOInc/hevo_ios.git", :tag => "1.0.0" }
   s.source_files  = "Hevo", "Hevo/**/*.{h,m,swift}"
   s.swift_version = "4"
-  s.pod_target_xcconfig = {'SWIFT_VERSION'=>'4'}
+  s.social_media_url= "https://www.twitter.com/hevopower"
+  s.requires_arc = true
+  s.compiler_flags = "-Wall -Werror -Wextra"  
+s.pod_target_xcconfig = {'SWIFT_VERSION'=>'4'}
 end
