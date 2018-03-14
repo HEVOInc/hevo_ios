@@ -7,7 +7,7 @@
 //
 
 import Foundation
-open final class HPReservation{
+open class HPReservation{
     
 }
 
